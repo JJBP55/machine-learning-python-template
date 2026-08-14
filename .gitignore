@@ -1,3 +1,25 @@
-__pycache__
+#datos no se suben a git
+data/
+data/raw/
+data/processed/
+data/interim/
+ 
+#modelos
+models/
+*.pkl
+*.joblib
+ 
+#python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ 
+#entorno
 .env
-.learn
+ 
+#sistema
+.DS_Store
+ 
